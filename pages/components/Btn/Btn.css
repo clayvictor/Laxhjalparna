@@ -1,0 +1,53 @@
+.btn {
+  background-color: var(--primary-color);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  color: var(--color-white);
+  text-align: center;
+  border: 0.3rem solid var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.btn-outline {
+  background-color: none;
+  border: 0.3rem solid var(--primary-color);
+  margin-left: 1%;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  color: var(--color-white);
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-color-hover);
+  border: 0.3rem solid var(--primary-color-hover);
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  background-color: var(--primary-color-hover);
+  border: 0.3rem solid var(--primary-color-hover);
+  transition: all 0.2s ease;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-white);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color-hover);
+}
