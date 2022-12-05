@@ -4,11 +4,26 @@
 :root {
   --primary-color: #ee761a;
   --primary-color-hover: rgb(255, 111, 0);
+  --alpha-color-one: #e0d4e9;
+  --alpha-color-two: #fae1c9;
+  --alpha-color-three: #faf0d2;
   --font-size-title: 4.2rem;
   --font-size-sub-titel: 2rem;
   --font-size-body: 1.6rem;
   --color-white: #f5f5f5;
   --color-black: #383838;
+}
+
+.purple {
+  background-color: var(--alpha-color-one);
+}
+
+.orange {
+  background-color: var(--alpha-color-two);
+}
+
+.yellow {
+  background-color: var(--alpha-color-three);
 }
 
 html,
@@ -59,10 +74,14 @@ h4 {
 
 p {
   font-size: var(--font-size-body);
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   margin: 0 5%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 a {
@@ -70,6 +89,10 @@ a {
   text-decoration: none;
   font-size: var(--font-size-sub-titel);
   font-weight: bold;
+}
+
+.mg-top-2 {
+  margin: 2% 0;
 }
 
 ul,
@@ -89,7 +112,7 @@ li {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -97,4 +120,4 @@ li {
     color: white;
     background: #212121;
   }
-}
+} */

@@ -1,0 +1,17 @@
+.info-container {
+  max-width: 30%;
+  max-height: 30vh;
+  margin: 5% 0%;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: 5% 5%;
+}
+
+@media (max-width: 1100px) {
+  .info-container {
+    max-width: 60rem;
+  }
+}
