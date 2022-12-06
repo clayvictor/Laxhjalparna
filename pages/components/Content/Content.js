@@ -20,7 +20,7 @@ const apply = {
 };
 export default function Content() {
   return (
-    <div className="container flex flex-between">
+    <div className="content-container container flex flex-between">
       <InfoContainer
         title={student.title}
         text={student.text}

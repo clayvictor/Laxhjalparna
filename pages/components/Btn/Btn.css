@@ -29,25 +29,3 @@
   border: 0.3rem solid var(--primary-color-hover);
   transition: all 0.2s ease;
 }
-
-/* Scrollbar */
-
-/* width */
-::-webkit-scrollbar {
-  width: 1rem;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: var(--color-white);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-color-hover);
-}

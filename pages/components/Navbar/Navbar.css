@@ -1,17 +1,39 @@
 .lh-10 {
-  line-height: 10vh;
+  /* line-height: 10vh; */
+  align-items: center;
+  height: 7.5rem;
 }
 
 .verticle {
   height: 100%;
 }
 
-nav {
-  justify-content: center;
-}
-
 .logo {
   font-family: "Fredoka One";
   font-size: 4.2rem;
   padding-left: 2%;
+}
+
+ul li {
+  padding: 0 1.75rem 0 1.75rem;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  height: 100%;
+  line-height: 7.5rem;
+}
+
+li a {
+  height: 100%;
+}
+
+.links:hover {
+  background-color: rgb(225, 225, 225);
 }

@@ -8,7 +8,7 @@ export default function Navbar() {
           <Image
             className="verticle"
             src="/logo.svg"
-            alt="An SVG of logo"
+            alt="Läxhjälparna logo"
             height={50}
             width={50}
           />
@@ -16,16 +16,17 @@ export default function Navbar() {
         </a>
       </div>
       <nav>
-        <ul className="flex gap">
-          <li>
-            <a href="#">Om Oss</a>
-          </li>
-          <li>
-            <a href="#">Vår Tjänst</a>
-          </li>
-          <li>
-            <a href="#">Kontakta Oss</a>
-          </li>
+        <ul className="flex">
+          <a className="links" href="#">
+            <li>Om Oss</li>
+          </a>
+          <a className="links" href="#">
+            {" "}
+            <li>Vår Tjänst</li>
+          </a>
+          <a className="links" href="#">
+            <li>Kontakta Oss</li>
+          </a>
           <li>
             <Btn />
           </li>
