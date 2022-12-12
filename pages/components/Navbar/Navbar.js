@@ -16,12 +16,11 @@ export default function Navbar() {
         </a>
       </div>
       <nav>
-        <ul className="flex">
+        <ul className="nav flex">
           <a className="links" href="#">
             <li>Om Oss</li>
           </a>
           <a className="links" href="#">
-            {" "}
             <li>Vår Tjänst</li>
           </a>
           <a className="links" href="#">

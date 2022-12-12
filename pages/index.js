@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Script from "next/script";
-import Navbar from "../pages/components/Navbar/Navbar.js";
-import Hero from "../pages/components/Hero/Hero.js";
-import Content from "../pages/components/Content/Content.js";
-
+import Navbar from "./components/Navbar/Navbar.js";
+import Hero from "./components/Hero/Hero.js";
+import Content from "./components/Content/Content.js";
+import Footer from "./components/Footer/Footer";
+import Faq from "./components/Faq/Faq";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Content />
+      <Faq />
+      <Footer />
     </div>
   );
 }

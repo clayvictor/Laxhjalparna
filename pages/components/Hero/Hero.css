@@ -21,6 +21,7 @@
 
 .sub-titel {
   margin-bottom: 1%;
+  width: 45%;
 }
 
 @media (max-width: 660px) {

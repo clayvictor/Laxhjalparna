@@ -12,6 +12,7 @@
   --font-size-body: 1.6rem;
   --color-white: #f9faf4;
   --color-black: #383838;
+  --font-size-subject: 3.2rem;
 }
 
 .purple {
@@ -65,6 +66,10 @@ h2 {
   font-size: var(--font-size-sub-titel);
 }
 
+h3 {
+  font-size: var(--font-size-subject);
+}
+
 h1,
 h2,
 h3,
@@ -93,7 +98,11 @@ a {
 }
 
 .mg-top-2 {
-  margin: 2% 0;
+  margin-top: 2%;
+}
+
+.mg-right-2 {
+  margin-right: 2%;
 }
 
 ul,

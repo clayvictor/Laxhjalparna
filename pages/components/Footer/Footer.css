@@ -1,0 +1,7 @@
+.footer {
+  justify-content: space-between;
+}
+
+.social-icons > i {
+  padding-right: 2%;
+}
