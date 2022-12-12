@@ -3,6 +3,7 @@ import Script from "next/script";
 import Navbar from "../pages/components/Navbar/Navbar.js";
 import Hero from "../pages/components/Hero/Hero.js";
 import Content from "../pages/components/Content/Content.js";
+import MoreContent from "./components/BublNImg/BublNImg.js";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Content />
+      <MoreContent />
     </div>
   );
 }
