@@ -1,0 +1,40 @@
+.MoreContent-BG {
+    background-image: url(../../../public/tutor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60rem;
+    width: 100%;
+}
+
+
+.cta-paragraph {
+    padding-top: 15vh;
+    height: 100%;
+    width: 50%;
+}
+
+.mg-top-30 {
+    margin-top: 30rem;
+}
+
+
+
+
+@media (max-width: 1400px) {
+
+    .MoreContent-BG {
+        background-image: url(../../../public/pexels-katerina-holmes-5905492\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 50rem;
+    }
+
+    .cta-paragraph {
+        padding-top: 15vh;
+        color: white;
+        width: 100%;
+    }
+    
+}

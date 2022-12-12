@@ -5,11 +5,10 @@ export default function Hero() {
     <div className="hero-bg">
       <div className="container hero-text">
         <div className="text-white ">
-          <h1>Läxhjälparna.</h1>
-          <h1>Vi stödjer där det behövs mest!</h1>
+          <h1 className="hero-title">Läxhjälparna.</h1>
+          <h1 className="hero-title">Vi stödjer där det behövs mest!</h1>
           <h2 className="sub-titel">
-            Framtida lärare från lokala samhälle är här för att hjälpa era barn{" "}
-            <br />
+            Framtida lärare från lokala samhälle är här för att hjälpa era barn
             som behöver stöd i deras studier.
           </h2>
         </div>
@@ -21,3 +20,5 @@ export default function Hero() {
     </div>
   );
 }
+
+

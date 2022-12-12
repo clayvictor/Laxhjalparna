@@ -37,3 +37,16 @@ li a {
 .links:hover {
   background-color: rgb(225, 225, 225);
 }
+
+
+@media (max-width: 1050px) {
+  nav {
+    display: none;
+  }
+
+
+  .logo {
+    display: none;
+  }
+
+}

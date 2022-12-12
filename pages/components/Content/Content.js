@@ -1,4 +1,5 @@
 import InfoContainer from "../InfoContainer/InfoContainer.js";
+import CTAParagraph from "../CTAParagraph/CTAParagraph.js";
 
 const student = {
   title: "LOKALA LÄRARSTUDENTER",
@@ -20,6 +21,7 @@ const apply = {
 };
 export default function Content() {
   return (
+    <div>
     <div className="content-container container flex flex-between">
       <InfoContainer
         title={student.title}
@@ -40,5 +42,7 @@ export default function Content() {
         bg={apply.bg}
       />
     </div>
+      <CTAParagraph />
+      </div>
   );
 }
