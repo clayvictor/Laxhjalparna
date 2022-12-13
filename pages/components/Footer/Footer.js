@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div className="container">
-      <div className="footer flex">
+    <div className="container footer">
+      <div className="flex">
         <div className="contact">
           <h3>NÅGRA FLER FRÅGOR? KONTAKTA OSS!</h3>
           <h2 className="mg-top-2">KONTAKTEMAIL</h2>
