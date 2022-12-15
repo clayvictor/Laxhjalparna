@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Btn from "../Btn/Btn.js";
+
 export default function Navbar() {
   return (
     <div className="lh-10 flex flex-between container">
@@ -31,6 +32,7 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
+      <i className="fa-6x fa-solid fa-bars mobile-nav"></i>
     </div>
   );
 }

@@ -24,8 +24,22 @@
   width: 45%;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 767px) {
+  .hero-bg {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(../../../public/HeroMobile.jpg);
+  }
+
+  .sub-titel {
+    width: 100%;
+    font-weight: normal;
+  }
+
   .hero-title {
-    font-size: 2.4rem;
+    word-spacing: -0.4rem;
   }
 }

@@ -1,30 +1,46 @@
 .MoreContent-BG {
-  background-image: url(../../../public/tutor.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../../../public/Learning.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-size: cover contain;
-  min-height: 60rem;
-  width: 100%;
+  min-height: auto;
+}
+
+.cta-content {
+  padding: 5vh 0;
+  display: inline-block;
+  padding: auto 0;
 }
 
 .cta-paragraph {
-  padding-top: 20vh;
   height: 100%;
-  width: 50%;
+  width: 70%;
+  color: white;
 }
 
 @media (max-width: 1400px) {
   .MoreContent-BG {
-    background-image: url(../../../public/pexels-katerina-holmes-5905492\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 50rem;
   }
 
   .cta-paragraph {
-    padding-top: 15vh;
     color: white;
     width: 100%;
+    padding-bottom: 2%;
+  }
+
+  .bubbles {
+    background-image: none;
+  }
+
+  .learning-img {
+    display: none;
   }
 }

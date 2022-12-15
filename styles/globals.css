@@ -15,6 +15,14 @@
   --font-size-subject: 3.2rem;
 }
 
+.wrapper {
+  margin: 0 auto;
+}
+
+.block {
+  display: block;
+}
+
 .purple {
   background-color: var(--alpha-color-one);
 }
@@ -122,6 +130,10 @@ li {
   box-sizing: border-box;
 }
 
+.p-bottom-4 {
+  padding-bottom: 4%;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -131,3 +143,25 @@ li {
     background: #212121;
   }
 } */
+
+@media (max-width: 800px) {
+  p {
+    font-size: calc(var(--font-size-body) - 0.2rem);
+  }
+
+  h1 {
+    font-size: calc(var(--font-size-title) - 1.6rem);
+  }
+
+  h2 {
+    font-size: calc(var(--font-size-sub-titel) - 4px);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size-subject) - 1rem);
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+}

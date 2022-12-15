@@ -8,17 +8,20 @@ import Faq from "./components/Faq/Faq";
 
 export default function Home() {
   return (
-    <div>
+    <div className="wrapper">
       <Head>
         <title>Läxhjälparna</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script src="https://kit.fontawesome.com/8a6f793172.js"></script>
       </Head>
+
       <Navbar />
-      <Hero />
-      <Content />
-      <Faq />
-      <Footer />
+      <div>
+        <Hero />
+        <Content />
+        <Faq />
+        <Footer />
+      </div>
     </div>
   );
 }
