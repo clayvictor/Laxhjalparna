@@ -47,7 +47,7 @@ export default function Faq() {
           </option>
         </select>
         {/* Shows the correct awnsers depending on what the user selects */}
-        <h2 className="awnsers">{selectedOption}</h2>
+        <p className="awnsers">{selectedOption}</p>
       </div>
       {/* Newsletter */}
       <div className="container newsletter">
