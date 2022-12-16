@@ -1,10 +1,10 @@
+/* FAQ CSS */
 .footer {
   justify-content: space-between;
   margin-bottom: 4%;
 }
 
 .social-icons > i {
-  /* padding-right: 2%; */
   padding-left: 2%;
 }
 

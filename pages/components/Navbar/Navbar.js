@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Btn from "../Btn/Btn.js";
 
+// Navbar
 export default function Navbar() {
   return (
     <div className="lh-10 flex flex-between container">
       <div className="flex">
         <a className="flex" href="">
+          {/* Logo */}
           <Image
             className="verticle"
             src="/logo.svg"
@@ -16,6 +18,7 @@ export default function Navbar() {
           <div className="logo">Läxhjälparna</div>
         </a>
       </div>
+      {/* Nav links */}
       <nav>
         <ul className="nav flex">
           <a className="links" href="#">

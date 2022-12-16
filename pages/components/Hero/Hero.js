@@ -1,7 +1,9 @@
+// Button component
 import Btn from "../Btn/Btn.js";
 import BtnOutline from "../Btn/BtnOutline.js";
 export default function Hero() {
   return (
+    // Hero text
     <div className="hero-bg">
       <div className="container hero-text">
         <div className="text-white ">
@@ -12,6 +14,7 @@ export default function Hero() {
             som behöver stöd i deras studier.
           </h2>
         </div>
+        {/* CTA buttons */}
         <div className="flex">
           <Btn />
           <BtnOutline />
