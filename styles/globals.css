@@ -145,7 +145,7 @@ li {
 
 @media (max-width: 800px) {
   p {
-    font-size: calc(var(--font-size-body) - 0.2rem);
+    font-size: calc(var(--font-size-body));
   }
 
   h1 {

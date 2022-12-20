@@ -4,10 +4,12 @@
   margin-bottom: 4%;
 }
 
-.social-icons > i {
-  padding-left: 2%;
-}
+@media (min-width: 768px) {
+  .footer {
+    display: block;
+  }
 
-.socialmedia {
-  margin-left: 4%;
+  .socialmedia {
+    width: 100%;
+  }
 }
